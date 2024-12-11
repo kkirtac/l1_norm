@@ -1,0 +1,4 @@
+model_name,hidden_size,train_count,val_count,test_count,max_sequence_length,input_min,input_max,early_stop_epoch,test_error
+L1NormLinear,64,160000,50000,50000,500,-20,20,8,0.9136336445808411
+L1NormLSTM,64,160000,50000,50000,500,-20,20,18,1.5060759782791138
+L1NormLinear,128,160000,50000,50000,500,-20,20,29,0.34996461868286133
